@@ -1,0 +1,16 @@
+<application>
+  <component name="libraryTable">
+    <library name="googlemaps-DefinitelyTyped" type="javaScript">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.WebIde80/system/extLibs/http_github.com_borisyankov_DefinitelyTyped_raw_master_googlemaps_google.maps.d.ts" />
+      </CLASSES>
+      <SOURCES />
+    </library>
+    <library name="sass-stdlib">
+      <CLASSES>
+        <root url="file://$APPLICATION_HOME_DIR$/plugins/sass/lib/stubs/sass_functions.scss" />
+      </CLASSES>
+      <SOURCES />
+    </library>
+  </component>
+</application>

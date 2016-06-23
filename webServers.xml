@@ -1,0 +1,20 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="d22879da-2f5e-4ed6-88cb-430c42d79bb3" name="aquaduckedftp" url="http://campbell.footholds.net">
+        <fileTransfer host="campbell.footholds.net" port="21" rootFolder="/public_html" username="aquaduck">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="ad8266d9-f828-43c3-afff-5d4073b1ee60" name="townpages" url="http://192.168.3.10">
+        <fileTransfer host="192.168.3.10" port="22" rootFolder="/var/www/demo.gigavoice.com/townpages" accessType="SFTP" password="dfdadfd8dfcbdfd9dfcfdfdedfc5df98df99" username="gmihailov">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>
