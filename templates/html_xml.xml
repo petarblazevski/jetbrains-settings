@@ -3,44 +3,40 @@
     <variable name="TAG" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="ATTRS" expression="" defaultValue="&quot;&quot;" alwaysStopAt="false" />
     <variable name="TAG_NAME" expression="firstWord(TAG)" defaultValue="&quot;&quot;" alwaysStopAt="false" />
-    <context />
+    <context>
+      <option name="JSP" value="true" />
+    </context>
   </template>
   <template name="T" value="&lt;$TAG$&gt;$SELECTION$&lt;/$TAGNAME$&gt;&#10;" description="Surround with &lt;tag&gt;&lt;/tag&gt;" toReformat="true" toShortenFQNames="true">
     <variable name="TAG" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="TAGNAME" expression="firstWord(TAG)" defaultValue="&quot;&quot;" alwaysStopAt="false" />
     <context>
       <option name="XSL_TEXT" value="true" />
+      <option name="XML_TEXT" value="true" />
     </context>
   </template>
   <template name="T2" value="&lt;$TAG$&gt;$SELECTION$&lt;/$TAGNAME$&gt;" description="Surround with &lt;tag&gt;&lt;/tag&gt; in HTML/JSP" toReformat="false" toShortenFQNames="false">
     <variable name="TAG" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="SELECTION" expression="" defaultValue="" alwaysStopAt="false" />
     <variable name="TAGNAME" expression="firstWord(TAG)" defaultValue="&quot;&quot;" alwaysStopAt="false" />
-    <context />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JSP" value="true" />
+      <option name="JSX_HTML" value="true" />
+    </context>
   </template>
   <template name="CD" value="&lt;![CDATA[&#10;$SELECTION$&#10;]]&gt;" description="Surround with CDATA section" toReformat="false" toShortenFQNames="false">
     <variable name="SELECTION" expression="" defaultValue="" alwaysStopAt="false" />
     <context>
+      <option name="HTML" value="true" />
       <option name="XSL_TEXT" value="true" />
+      <option name="XML_TEXT" value="true" />
+      <option name="JSP" value="true" />
     </context>
   </template>
   <template name="php" value="&lt;?php $END$ ?&gt;" description="&lt;?php  ?&gt;" toReformat="false" toShortenFQNames="true">
     <context>
-      <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
-      <option name="XSL_TEXT" value="false" />
-      <option name="XML" value="false" />
-      <option name="JSP" value="false" />
-      <option name="CSS_PROPERTY_VALUE" value="false" />
-      <option name="CSS_DECLARATION_BLOCK" value="false" />
-      <option name="CSS_RULESET_LIST" value="false" />
-      <option name="CSS" value="false" />
-      <option name="CUCUMBER_FEATURE_FILE" value="false" />
-      <option name="JAVA_SCRIPT" value="false" />
-      <option name="TypeScript" value="false" />
-      <option name="HAML" value="false" />
-      <option name="CoffeeScript" value="false" />
-      <option name="OTHER" value="false" />
     </context>
   </template>
 </templateSet>
