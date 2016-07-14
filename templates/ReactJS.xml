@@ -639,4 +639,10 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="msp" value="function mapStateToProps(state) {&#10;  return {&#10;    $prop$: state.$prop$,&#10;  };&#10;}" description="Map State to Props" toReformat="false" toShortenFQNames="true">
+    <variable name="prop" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
