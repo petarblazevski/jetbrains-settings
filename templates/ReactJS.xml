@@ -634,4 +634,9 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="roa" value="static readyOnAction(dispatch) {&#10;    return Promise.all([$END$]);&#10;}" description="Ready on Action" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
