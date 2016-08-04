@@ -1,3 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<application />
-
+<application>
+  <component name="AbbreviationManager">
+    <abbreviations>
+      <action id="ShowUmlDiagram" />
+    </abbreviations>
+  </component>
+</application>
