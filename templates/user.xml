@@ -1,0 +1,16 @@
+<templateSet group="user">
+  <template name="bootstrapcss" value="&lt;link rel=&quot;stylesheet&quot; href=&quot;//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css&quot;&gt;" description="Bootstrap CDN CSS" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="bootstrapjs" value="&lt;script src=&quot;//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js&quot;&gt;&lt;/script&gt;" description="Bootstrap CDN JS" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="vd" value="var_dump($OUTPUT$);exit;$END$" description="var_dump();exit;" toReformat="false" toShortenFQNames="true">
+    <variable name="OUTPUT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+</templateSet>
