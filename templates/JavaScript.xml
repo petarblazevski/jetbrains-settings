@@ -9,7 +9,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="error" value="console.log($END$);" description="console.error()" toReformat="false" toShortenFQNames="true">
+  <template name="error" value="console.error($END$);" description="console.error()" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
