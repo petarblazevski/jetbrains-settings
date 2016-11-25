@@ -1,9 +1,8 @@
 <scheme name="Material Theme - Darker Petar" version="142" parent_scheme="Default">
   <option name="LINE_SPACING" value="1.6" />
-  <option name="EDITOR_FONT_SIZE" value="13" />
+  <option name="EDITOR_FONT_SIZE" value="12" />
   <option name="EDITOR_LIGATURES" value="true" />
   <option name="CONSOLE_FONT_NAME" value="Monospaced" />
-  <option name="CONSOLE_FONT_SIZE" value="12" />
   <option name="CONSOLE_LINE_SPACING" value="1.0" />
   <option name="EDITOR_FONT_NAME" value="Fira Code Retina" />
   <colors>
@@ -100,6 +99,7 @@
     <option name="BLADE_DIRECTIVE">
       <value>
         <option name="FOREGROUND" value="ff5370" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="BNF_KEYWORD">
@@ -706,11 +706,13 @@
     <option name="HTML_ATTRIBUTE_NAME">
       <value>
         <option name="FOREGROUND" value="ffcb6b" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="HTML_ATTRIBUTE_VALUE">
       <value>
         <option name="FOREGROUND" value="c3e887" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="HTML_COMMENT">
@@ -732,6 +734,7 @@
     <option name="HTML_TAG_NAME">
       <value>
         <option name="FOREGROUND" value="ff5370" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="HYPERLINK_ATTRIBUTES">
@@ -1701,6 +1704,7 @@
       <value>
         <option name="FOREGROUND" value="c3cee3" />
         <option name="BACKGROUND" value="212121" />
+        <option name="FONT_TYPE" value="1" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
